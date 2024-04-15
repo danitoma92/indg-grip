@@ -1,0 +1,1014 @@
+{
+    "name": "Visual Tests / Date: 2024-04-15 / URL: undefined",
+    "date": 1713209183928,
+    "dateH": "4/15/2024, 10:26:23 PM",
+    "duration": 13573,
+    "durationH": "13.6s",
+    "cwd": "C:/Users/Dani_T/Downloads/indg-grip",
+    "outputFile": "./test-results/2024-04-15/index.html",
+    "outputDir": "./test-results/2024-04-15",
+    "metadata": {
+        "totalTime": 12433.973999999464
+    },
+    "system": {
+        "cpu": {
+            "color": "#117DBB",
+            "count": 8,
+            "model": "Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz",
+            "speed": 2112
+        },
+        "mem": {
+            "color": "#8B12AE",
+            "total": 8419581952
+        },
+        "arch": "x64",
+        "platform": "win32",
+        "release": "10.0.19045",
+        "type": "Windows_NT",
+        "version": "Windows 10 Pro",
+        "uptime": 34116.781,
+        "hostname": "Dani_Proobook",
+        "pid": 15152,
+        "node": "20.12.2",
+        "v8": "11.3.244.8-node.19",
+        "timestampStart": 1713209183928,
+        "ticks": [
+            {
+                "cpu": {
+                    "percent": 16.77
+                },
+                "mem": {
+                    "free": 1978474496
+                },
+                "timestamp": 1713209185958
+            },
+            {
+                "cpu": {
+                    "percent": 16.18
+                },
+                "mem": {
+                    "free": 1947340800
+                },
+                "timestamp": 1713209187989
+            },
+            {
+                "cpu": {
+                    "percent": 4.28
+                },
+                "mem": {
+                    "free": 1944248320
+                },
+                "timestamp": 1713209190013
+            },
+            {
+                "cpu": {
+                    "percent": 9.42
+                },
+                "mem": {
+                    "free": 1931476992
+                },
+                "timestamp": 1713209192023
+            },
+            {
+                "cpu": {
+                    "percent": 10.98
+                },
+                "mem": {
+                    "free": 2006781952
+                },
+                "timestamp": 1713209194027
+            },
+            {
+                "cpu": {
+                    "percent": 18.08
+                },
+                "mem": {
+                    "free": 1980981248
+                },
+                "timestamp": 1713209196040
+            },
+            {
+                "cpu": {
+                    "percent": 6.92
+                },
+                "mem": {
+                    "free": 2208403456
+                },
+                "timestamp": 1713209197475
+            }
+        ],
+        "workers": 1,
+        "jobs": [
+            {
+                "caseId": "3414df0b7796b2f70a20",
+                "parallelIndex": 0,
+                "workerIndex": 0,
+                "timestamp": 1713209184390,
+                "duration": 3886
+            },
+            {
+                "caseId": "d2dd5344a057ff9837f2",
+                "parallelIndex": 0,
+                "workerIndex": 0,
+                "timestamp": 1713209188277,
+                "duration": 2503
+            },
+            {
+                "caseId": "762f942a51c9a8e93709",
+                "parallelIndex": 0,
+                "workerIndex": 0,
+                "timestamp": 1713209190781,
+                "duration": 2488
+            },
+            {
+                "caseId": "0fa3c0d882ce8ac56989",
+                "parallelIndex": 0,
+                "workerIndex": 0,
+                "timestamp": 1713209193270,
+                "duration": 1965
+            },
+            {
+                "caseId": "1e86cc01b306127c5350",
+                "parallelIndex": 0,
+                "workerIndex": 0,
+                "timestamp": 1713209195236,
+                "duration": 1140
+            }
+        ],
+        "cwd": "C:/Users/Dani_T/Downloads/indg-grip",
+        "configFile": "playwright.config.ts",
+        "playwright": "1.35.1",
+        "testDir": "tests",
+        "outputFile": "test-results/2024-04-15/index.html",
+        "outputDir": "test-results/2024-04-15",
+        "timestampEnd": 1713209197501
+    },
+    "artifacts": [],
+    "trends": [],
+    "columns": [
+        {
+            "id": "caseType",
+            "name": "",
+            "width": 36,
+            "sortable": false,
+            "align": "center",
+            "formatter": "iconCaseType",
+            "detailed": false
+        },
+        {
+            "id": "title",
+            "name": "Title",
+            "searchable": true,
+            "width": 350,
+            "maxWidth": 1230,
+            "detailed": false
+        },
+        {
+            "id": "type",
+            "name": "Type",
+            "width": 50,
+            "sortable": false,
+            "align": "center",
+            "formatter": "iconType",
+            "detailed": false
+        },
+        {
+            "id": "duration",
+            "name": "Duration",
+            "align": "right",
+            "sortAsc": false,
+            "formatter": "duration",
+            "detailed": false
+        },
+        {
+            "id": "errors",
+            "name": "Errors",
+            "width": 60,
+            "align": "center",
+            "comparer": "errors",
+            "formatter": "errors",
+            "detailed": false
+        },
+        {
+            "id": "logs",
+            "name": "Logs",
+            "width": 60,
+            "align": "center",
+            "comparer": "logs",
+            "formatter": "logs",
+            "detailed": false
+        },
+        {
+            "id": "annotations",
+            "name": "Annotations",
+            "width": 100,
+            "markdown": true,
+            "searchable": true,
+            "comparer": "annotations",
+            "formatter": "annotations",
+            "detailed": false
+        },
+        {
+            "id": "attachments",
+            "name": "Attachments",
+            "width": 100,
+            "align": "center",
+            "formatter": "attachments",
+            "detailed": false
+        },
+        {
+            "id": "status",
+            "name": "Status",
+            "align": "center",
+            "detailed": false
+        },
+        {
+            "id": "expectedStatus",
+            "name": "Expected",
+            "align": "center",
+            "detailed": false
+        },
+        {
+            "id": "outcome",
+            "name": "Outcome",
+            "align": "center",
+            "width": 85,
+            "detailed": false
+        },
+        {
+            "id": "retry",
+            "name": "Retry",
+            "align": "center",
+            "width": 50,
+            "detailed": false
+        },
+        {
+            "id": "location",
+            "name": "Location",
+            "classMap": "mcr-location",
+            "width": 200,
+            "maxWidth": 1981,
+            "detailed": false
+        }
+    ],
+    "rows": [
+        {
+            "id": "j9zfmsf5tcwjw8v6dgan",
+            "title": "chromium",
+            "type": "suite",
+            "suiteType": "project",
+            "caseNum": 5,
+            "subs": [
+                {
+                    "id": "d858210532bca38fe286",
+                    "title": "login/login-grip.spec.ts",
+                    "type": "suite",
+                    "suiteType": "file",
+                    "caseNum": 5,
+                    "subs": [
+                        {
+                            "id": "d858210532bca38fe286",
+                            "title": "Grip login page tests",
+                            "type": "suite",
+                            "suiteType": "describe",
+                            "caseNum": 5,
+                            "subs": [
+                                {
+                                    "id": "3414df0b7796b2f70a20",
+                                    "title": "Login with valid email and valid password",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/login/login-grip.spec.ts:27:7",
+                                    "timestamps": [
+                                        1713209184390,
+                                        1713209188276
+                                    ],
+                                    "duration": 3886,
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 10,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "gtkso43s61oi44qt0bdn",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 3727,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "2yte39dz259223b7k3n0",
+                                                    "title": "beforeAll hook",
+                                                    "type": "step",
+                                                    "stepType": "hook",
+                                                    "duration": 925,
+                                                    "location": "tests/login/login-grip.spec.ts:14:8",
+                                                    "subs": [
+                                                        {
+                                                            "id": "79ul4g2gr9cirg67b0s6",
+                                                            "title": "browserType.launch",
+                                                            "type": "step",
+                                                            "stepType": "pw:api",
+                                                            "duration": 764,
+                                                            "location": "tests/login/login-grip.spec.ts:15:30"
+                                                        },
+                                                        {
+                                                            "id": "qamhly45qm143x1fbyvf",
+                                                            "title": "browser.newPage",
+                                                            "type": "step",
+                                                            "stepType": "pw:api",
+                                                            "duration": 134,
+                                                            "location": "tests/login/login-grip.spec.ts:16:26"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "gddrn5d45vs0gi8ek8c8",
+                                                    "title": "beforeEach hook",
+                                                    "type": "step",
+                                                    "stepType": "hook",
+                                                    "duration": 2798,
+                                                    "location": "tests/login/login-grip.spec.ts:19:8",
+                                                    "subs": [
+                                                        {
+                                                            "id": "gjaxlc9ir31ga1kqq6wf",
+                                                            "title": "page.goto(https://gripapi-development.azurewebsites.net/login)",
+                                                            "type": "step",
+                                                            "stepType": "pw:api",
+                                                            "duration": 2788,
+                                                            "location": "tests/login/login-grip.spec.ts:20:16"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "59jd5ty41grz58cu8agy",
+                                            "title": "page.fill(input[name=\"email\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 56,
+                                            "location": "tests/login/login-grip.spec.ts:29:16"
+                                        },
+                                        {
+                                            "id": "s40oei4k9i9n2r7cub4a",
+                                            "title": "page.fill(input[name=\"password\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 28,
+                                            "location": "tests/login/login-grip.spec.ts:31:16"
+                                        },
+                                        {
+                                            "id": "skhiim7655t4nsvwpytu",
+                                            "title": "page.click(button[type=\"submit\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 66,
+                                            "location": "tests/login/login-grip.spec.ts:34:16"
+                                        },
+                                        {
+                                            "id": "gl6nxvafcmza2ylo4bvd",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 1,
+                                            "location": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "d2dd5344a057ff9837f2",
+                                    "title": "Login with invalid email and valid password",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/login/login-grip.spec.ts:40:7",
+                                    "timestamps": [
+                                        1713209188277,
+                                        1713209190780
+                                    ],
+                                    "duration": 2503,
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 11,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "kjphrrkojpclinccdva7",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 2412,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "b4urohsd263gf1w01n4o",
+                                                    "title": "beforeEach hook",
+                                                    "type": "step",
+                                                    "stepType": "hook",
+                                                    "duration": 2411,
+                                                    "location": "tests/login/login-grip.spec.ts:19:8",
+                                                    "subs": [
+                                                        {
+                                                            "id": "busm2mhr0hciwvfo7iig",
+                                                            "title": "page.goto(https://gripapi-development.azurewebsites.net/login)",
+                                                            "type": "step",
+                                                            "stepType": "pw:api",
+                                                            "duration": 2400,
+                                                            "location": "tests/login/login-grip.spec.ts:20:16"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "2fvbwge7i4srrxaqki2w",
+                                            "title": "page.fill(input[name=\"email\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 35,
+                                            "location": "tests/login/login-grip.spec.ts:42:16"
+                                        },
+                                        {
+                                            "id": "steooszoxc1aqptir6k7",
+                                            "title": "page.fill(input[name=\"password\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 20,
+                                            "location": "tests/login/login-grip.spec.ts:44:16"
+                                        },
+                                        {
+                                            "id": "mfbd14c7jaej2a1pfrvy",
+                                            "title": "page.waitForSelector(div:has-text(\"Invalid email address\"))",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 10,
+                                            "location": "tests/login/login-grip.spec.ts:48:16"
+                                        },
+                                        {
+                                            "id": "cnfsbdu87b5nv5tj6srn",
+                                            "title": "page.isVisible(div:has-text(\"Invalid email address\"))",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 7,
+                                            "location": "tests/login/login-grip.spec.ts:50:44"
+                                        },
+                                        {
+                                            "id": "1lgmlkz5p1z81tpynztd",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/login/login-grip.spec.ts:51:33"
+                                        },
+                                        {
+                                            "id": "153eip9382hdaj32t6id",
+                                            "title": "page.$eval(button[type=\"submit\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 6,
+                                            "location": "utils/function.ts:4:35"
+                                        },
+                                        {
+                                            "id": "7t0wbqov4ka5qiv3e1cr",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "utils/function.ts:5:24"
+                                        },
+                                        {
+                                            "id": "pxacyaobf2gqqb5araqh",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 1,
+                                            "location": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "762f942a51c9a8e93709",
+                                    "title": "Login with valid email and no password",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/login/login-grip.spec.ts:57:7",
+                                    "timestamps": [
+                                        1713209190781,
+                                        1713209193269
+                                    ],
+                                    "duration": 2488,
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 11,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "z1sdlun67z713as5qxqk",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 2416,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "wor7h24ebr5m5dqr35in",
+                                                    "title": "beforeEach hook",
+                                                    "type": "step",
+                                                    "stepType": "hook",
+                                                    "duration": 2415,
+                                                    "location": "tests/login/login-grip.spec.ts:19:8",
+                                                    "subs": [
+                                                        {
+                                                            "id": "v7zlmqwhk2afwte9tc01",
+                                                            "title": "page.goto(https://gripapi-development.azurewebsites.net/login)",
+                                                            "type": "step",
+                                                            "stepType": "pw:api",
+                                                            "duration": 2406,
+                                                            "location": "tests/login/login-grip.spec.ts:20:16"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "hte5xrri3gq5i7w30ryh",
+                                            "title": "page.fill(input[name=\"email\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 31,
+                                            "location": "tests/login/login-grip.spec.ts:59:16"
+                                        },
+                                        {
+                                            "id": "gixeux3wchyx0n5u2i1k",
+                                            "title": "page.fill(input[name=\"password\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 14,
+                                            "location": "tests/login/login-grip.spec.ts:61:16"
+                                        },
+                                        {
+                                            "id": "dt1y2xopsghw388ljx2p",
+                                            "title": "page.waitForSelector(div:has-text(\"Password is required\"))",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 7,
+                                            "location": "tests/login/login-grip.spec.ts:65:16"
+                                        },
+                                        {
+                                            "id": "lrr9uvricz9x62l7ag7v",
+                                            "title": "page.isVisible(div:has-text(\"Password is required\"))",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 7,
+                                            "location": "tests/login/login-grip.spec.ts:67:44"
+                                        },
+                                        {
+                                            "id": "f11ryfc8kvv5g2mw87hl",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/login/login-grip.spec.ts:68:33"
+                                        },
+                                        {
+                                            "id": "ochtjh84ubncdlwzq0q1",
+                                            "title": "page.$eval(button[type=\"submit\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 6,
+                                            "location": "utils/function.ts:4:35"
+                                        },
+                                        {
+                                            "id": "618az6o85xgs2t7wjuot",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 1,
+                                            "location": "utils/function.ts:5:24"
+                                        },
+                                        {
+                                            "id": "lykh34ca327qxomgjh58",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 0,
+                                            "location": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "0fa3c0d882ce8ac56989",
+                                    "title": "Login with no email and and valid password",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/login/login-grip.spec.ts:74:7",
+                                    "timestamps": [
+                                        1713209193270,
+                                        1713209195235
+                                    ],
+                                    "duration": 1965,
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 12,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "o5pu7u5tqt1cih15nnqn",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 513,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "ay5t58mwla80m5bx55uf",
+                                                    "title": "beforeEach hook",
+                                                    "type": "step",
+                                                    "stepType": "hook",
+                                                    "duration": 512,
+                                                    "location": "tests/login/login-grip.spec.ts:19:8",
+                                                    "subs": [
+                                                        {
+                                                            "id": "0zgvr3yqa4j3akmmqu07",
+                                                            "title": "page.goto(https://gripapi-development.azurewebsites.net/login)",
+                                                            "type": "step",
+                                                            "stepType": "pw:api",
+                                                            "duration": 500,
+                                                            "location": "tests/login/login-grip.spec.ts:20:16"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "z0vpoihiq349pee657cm",
+                                            "title": "page.fill(input[name=\"email\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 1394,
+                                            "location": "tests/login/login-grip.spec.ts:76:16"
+                                        },
+                                        {
+                                            "id": "2out2zja0gso68xvyurz",
+                                            "title": "keyboard.press(Backspace)",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 8,
+                                            "location": "tests/login/login-grip.spec.ts:77:25"
+                                        },
+                                        {
+                                            "id": "i0h6vdihooa4kc3w1m0q",
+                                            "title": "page.fill(input[name=\"password\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 22,
+                                            "location": "tests/login/login-grip.spec.ts:79:17"
+                                        },
+                                        {
+                                            "id": "37t247cw12263w1m30qb",
+                                            "title": "page.waitForSelector(div:has-text(\"E-mail is required\"))",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 9,
+                                            "location": "tests/login/login-grip.spec.ts:83:16"
+                                        },
+                                        {
+                                            "id": "h1yuk2smj4ign1njiehd",
+                                            "title": "page.isVisible(div:has-text(\"E-mail is required\"))",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 6,
+                                            "location": "tests/login/login-grip.spec.ts:85:43"
+                                        },
+                                        {
+                                            "id": "bqw3szoz64uq2vj2h39t",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 1,
+                                            "location": "tests/login/login-grip.spec.ts:86:32"
+                                        },
+                                        {
+                                            "id": "lqsne9zxf4f4zpg418mm",
+                                            "title": "page.$eval(button[type=\"submit\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 5,
+                                            "location": "utils/function.ts:4:35"
+                                        },
+                                        {
+                                            "id": "cfbgt80x0lz3tkrj8o9z",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "utils/function.ts:5:24"
+                                        },
+                                        {
+                                            "id": "r9ou9y83vyq6bqldypa7",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 1,
+                                            "location": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1e86cc01b306127c5350",
+                                    "title": "Check Forgot your password?",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/login/login-grip.spec.ts:92:7",
+                                    "timestamps": [
+                                        1713209195236,
+                                        1713209196376
+                                    ],
+                                    "duration": 1140,
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 15,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "q7mjqev1dfl1tod7d5er",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 480,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "xodpkkcya8eckiwx8srp",
+                                                    "title": "beforeEach hook",
+                                                    "type": "step",
+                                                    "stepType": "hook",
+                                                    "duration": 479,
+                                                    "location": "tests/login/login-grip.spec.ts:19:8",
+                                                    "subs": [
+                                                        {
+                                                            "id": "jvaw5vb3kqdu3xnpgf6g",
+                                                            "title": "page.goto(https://gripapi-development.azurewebsites.net/login)",
+                                                            "type": "step",
+                                                            "stepType": "pw:api",
+                                                            "duration": 469,
+                                                            "location": "tests/login/login-grip.spec.ts:20:16"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "4ve7yafngncb9kvjbxqe",
+                                            "title": "page.click(h5:has-text(\"Forgot your password?\"))",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 323,
+                                            "location": "tests/login/login-grip.spec.ts:94:16"
+                                        },
+                                        {
+                                            "id": "m2w9l2elfs2qmgeme914",
+                                            "title": "page.fill(input[name=\"email\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 16,
+                                            "location": "tests/login/login-grip.spec.ts:96:16"
+                                        },
+                                        {
+                                            "id": "sbobswgsta6msxaz9yjp",
+                                            "title": "page.click(button[type=\"submit\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 92,
+                                            "location": "tests/login/login-grip.spec.ts:99:16"
+                                        },
+                                        {
+                                            "id": "2s7dz9az5k194xi0px3z",
+                                            "title": "page.waitForSelector(div[data-test-component=\"passwordRecoveryPage__submitMessage\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 110,
+                                            "location": "tests/login/login-grip.spec.ts:102:16"
+                                        },
+                                        {
+                                            "id": "0mbtvy8k3uaa9v5bt5pz",
+                                            "title": "page.isVisible(div[data-test-component=\"passwordRecoveryPage__submitMessage\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 6,
+                                            "location": "tests/login/login-grip.spec.ts:103:45"
+                                        },
+                                        {
+                                            "id": "3g9qmwl53c0hcgqbtors",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/login/login-grip.spec.ts:104:34"
+                                        },
+                                        {
+                                            "id": "hx2c352tb2ibhwjsycus",
+                                            "title": "page.click(a[data-test-component=\"passwordRecoveryPage__goBack textLink link\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 56,
+                                            "location": "tests/login/login-grip.spec.ts:107:16"
+                                        },
+                                        {
+                                            "id": "2aa3tejfj280w0p2eb8p",
+                                            "title": "page.isVisible(button[type=\"button\"])",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 2,
+                                            "location": "tests/login/login-grip.spec.ts:109:34"
+                                        },
+                                        {
+                                            "id": "ri5vy5zak1tt1lb817mc",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/login/login-grip.spec.ts:110:23"
+                                        },
+                                        {
+                                            "id": "54izba1trqatxmbp5u1n",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 44,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "gmjzj4d0jj5dbsbuf9ei",
+                                                    "title": "afterAll hook",
+                                                    "type": "step",
+                                                    "stepType": "hook",
+                                                    "duration": 43,
+                                                    "location": "tests/login/login-grip.spec.ts:23:8",
+                                                    "subs": [
+                                                        {
+                                                            "id": "pkocj1vrdo40ute7uw78",
+                                                            "title": "browser.close",
+                                                            "type": "step",
+                                                            "stepType": "pw:api",
+                                                            "duration": 31,
+                                                            "location": "tests/login/login-grip.spec.ts:24:19"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "location": "tests/login/login-grip.spec.ts:7:6"
+                        }
+                    ],
+                    "location": "tests/login/login-grip.spec.ts:0:0"
+                }
+            ]
+        }
+    ],
+    "formatters": {},
+    "suiteTypes": [
+        "project",
+        "file",
+        "describe",
+        "shard"
+    ],
+    "caseTypes": [
+        "passed",
+        "flaky",
+        "skipped",
+        "failed"
+    ],
+    "traceViewerUrl": "https://trace.playwright.dev/?trace={traceUrl}",
+    "tags": {},
+    "summary": {
+        "tests": {
+            "name": "Tests",
+            "value": 5,
+            "nav": true,
+            "id": "tests"
+        },
+        "passed": {
+            "name": "Passed",
+            "value": 5,
+            "color": "green",
+            "nav": true,
+            "id": "passed",
+            "percent": "100.0%"
+        },
+        "flaky": {
+            "name": "Flaky",
+            "value": 0,
+            "color": "orange",
+            "nav": true,
+            "id": "flaky",
+            "percent": "0.0%"
+        },
+        "skipped": {
+            "name": "Skipped",
+            "value": 0,
+            "color": "gray",
+            "nav": true,
+            "id": "skipped",
+            "percent": "0.0%"
+        },
+        "failed": {
+            "name": "Failed",
+            "value": 0,
+            "color": "#d00",
+            "nav": true,
+            "id": "failed",
+            "percent": "0.0%"
+        },
+        "steps": {
+            "name": "Steps",
+            "value": 59,
+            "id": "steps"
+        },
+        "suites": {
+            "name": "Suites",
+            "value": 1,
+            "id": "suites"
+        },
+        "projects": {
+            "name": "Projects",
+            "description": "Suite type is project",
+            "value": 1,
+            "id": "projects"
+        },
+        "files": {
+            "name": "Files",
+            "description": "Suite type is file",
+            "value": 1,
+            "id": "files"
+        },
+        "describes": {
+            "name": "Describes",
+            "description": "Suite type is describe",
+            "value": 1,
+            "id": "describes"
+        },
+        "shards": {
+            "name": "Shards",
+            "description": "Suite type is shard (only in shading mode)",
+            "value": 0,
+            "id": "shards"
+        },
+        "retries": {
+            "name": "Retries",
+            "value": 0,
+            "id": "retries"
+        },
+        "errors": {
+            "name": "Errors",
+            "value": 0,
+            "id": "errors"
+        },
+        "logs": {
+            "name": "Logs",
+            "value": 0,
+            "id": "logs"
+        },
+        "attachments": {
+            "name": "Attachments",
+            "value": 0,
+            "id": "attachments"
+        }
+    },
+    "pieChart": {
+        "ns": "mcr-pie",
+        "width": 360,
+        "height": 150,
+        "margin": 10,
+        "svg": "<svg viewBox=\"0 0 360 150\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><g class=\"mcr-pie-path-passed\"><path d=\"M75,75 L75,10 A65,65 0 1 1 75,140 A65,65 0 1 1 75,10 z\" fill=\"green\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-flaky\"><path d=\"\" fill=\"orange\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-skipped\"><path d=\"\" fill=\"gray\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-failed\"><path d=\"\" fill=\"#d00\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g transform=\"translate(160 10)\"><g class=\"mcr-pie-legend-passed\" transform=\"translate(0 0)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"green\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Passed</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">5</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">100.0%</text></g><g class=\"mcr-pie-legend-flaky\" transform=\"translate(0 32)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"orange\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Flaky</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g><g class=\"mcr-pie-legend-skipped\" transform=\"translate(0 64)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"gray\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Skipped</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g><g class=\"mcr-pie-legend-failed\" transform=\"translate(0 96)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"#d00\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Failed</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g></g></svg>"
+    }
+}
